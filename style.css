@@ -11,6 +11,25 @@ color : white  ;
     gap: 2px;
     margin-left: 10px;
     align-items: center;
+    justify-content: space-between;
+    padding-left:10px ;
+    padding-right: 10px;
+    color: white !important;
+      background: rgb(225, 106, 22);
+      border-bottom-color: white;
+      border-bottom-width: 5px;
+
+}
+
+h4{
+    color: white;
+   transition: 0.3s;
+}
+
+
+h4:hover{
+      color: white; 
+      transform: scale(1.1);
 }
 
 .logo{
