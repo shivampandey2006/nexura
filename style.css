@@ -15,15 +15,19 @@ color : white  ;
     padding-left:10px ;
     padding-right: 10px;
     color: white !important;
-      background: rgb(225, 106, 22);
+      /* background: rgb(225, 106, 22); */
       border-bottom-color: white;
       border-bottom-width: 5px;
+      width: 95% 
 
 }
 
 h4{
     color: white;
    transition: 0.3s;
+  
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
 }
 
 
@@ -41,16 +45,15 @@ h4:hover{
 
 
 .title{
-    position: sticky;
-    top: 0;
-    padding: 10px;
-    background: rgb(225, 106, 22);
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bold;
+
     z-index: 1000;
     font-weight: bold;
-   padding-left: 10px;
+  
     font-weight: 900;
     color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
 }
 .title:hover{
     color:black
@@ -117,6 +120,13 @@ h2 {
     font-size: 17px;
 }
 
+
+.p1  , .p2{
+   z-index: -10;
+   height: 500px;
+   width: 250px;
+}
+
 .details {
     display: flex;
     justify-content: space-between;
@@ -156,6 +166,17 @@ th {
  /* responsives  */
 @media (max-width: 700px) {
 
+
+        .p1,
+    .p2 {
+        width: 100%;
+        max-width: 100px;
+        height: 200px;
+        object-fit: cover;
+        z-index: -10;
+    }
+
+
     body {
         padding: 10px;
     }
@@ -182,6 +203,30 @@ th {
     h1 {
         font-size: 30px;
     }
+
+
+    .intro{
+    color: rgb(101, 94, 94) !important;
+}
+
+.intro{
+    background-color: rgb(230, 221, 221);
+    padding: 10px;
+    border-radius: 20px;
+}
+}
+
+
+
+
+   .intro{
+    color: rgb(101, 94, 94) !important;
+}
+
+.intro{
+    background-color: rgb(230, 221, 221);
+    padding: 10px;
+    border-radius: 20px;
 }
 
 
